@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #e3e6f3;
+    background-color: #e3e6f3 !important; 
     padding: 15px 88px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     top: 0;
@@ -31,7 +31,7 @@
 .header-logo img {
     width: 50px;
     height: 50px;
-    margin-right: 10px; /* Space between the logo image and text */
+    margin-right: 30px; /* Space between the logo image and text */
 }
 
 .logo-name {
@@ -41,22 +41,19 @@
     color: #1a1a1a;
 }
 
-.header-list {
-    display: flex;
-    align-items: center;
-}
+
 
 .header-list-nav ul {
     display: flex;
 }
 
-.header-list-nav ul li {
+.container-fluid ul li {
     list-style-type: none;
     padding: 0 20px;
     position: relative;
 }
 
-.header-list-nav ul a {
+.container-fluid ul a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
@@ -122,8 +119,7 @@
   }
   
 .feedback{
-    padding: 0 400px 0 400px;
-    margin: 20px;
+    margin:20px
 }
 .description{
     margin: 30px;
