@@ -128,3 +128,6 @@
 .link a{
     text-decoration: none;
 }
+.d-flex{
+    justify-content: space-evenly;
+}
